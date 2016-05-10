@@ -55,7 +55,6 @@ development:
     rake build             # Build puppet module package
     rake clean             # Clean a built module package
     rake contributors      # Populate CONTRIBUTORS file
-    rake coverage          # Generate code coverage information
     rake help              # Display the list of available rake tasks
     rake lint              # Check puppet manifests with puppet-lint / Run puppet-lint
     rake spec              # Run spec tests in a clean fixtures directory
