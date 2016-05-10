@@ -11,8 +11,8 @@
 #   e.g. "Specify one or more upstream ntp servers as an array."
 #
 class <%= metadata.name %> (
-  $package_name = $::<%= metadata.name %>::params::package_name,
-  $service_name = $::<%= metadata.name %>::params::service_name,
+  String $package_name = $::<%= metadata.name %>::params::package_name,
+  String $service_name = $::<%= metadata.name %>::params::service_name,
 ) inherits ::<%= metadata.name %>::params {
 
   # validate parameters here
